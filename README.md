@@ -1,36 +1,49 @@
-## Hi there 👋
+# 👋 Hi, I'm Manodya Dissanayake
 
-I'm **Manodya**, an enthusiastic IT undergraduate at the **Sri Lanka Institute of Information Technology (SLIIT)**. I have a strong foundation in:
+**IT Undergraduate | Tech Enthusiast | SLIIT**
 
-- 💻 Software Development
-- 🗃️ Database Management
-- 🧠 Programming (Java, Python, etc.)
-- 🎨 UI/UX Design
-- 🌐 Web Development
+Welcome to my GitHub! I'm a passionate IT student at the **Sri Lanka Institute of Information Technology (SLIIT)**, dedicated to crafting innovative solutions through code, design, and data. I love turning ideas into reality and tackling real-world challenges with technology.
 
 ---
 
-### 🚀 About Me
+## 🌟 About Me
 
-I'm passionate about solving real-world problems using technology. Whether it’s coding, collaborating with a team, or creatively thinking through challenges, I thrive on building impactful and efficient solutions.
+I’m an aspiring tech innovator with a strong foundation in software development and a curiosity for emerging technologies. Whether it's building sleek web apps, optimizing databases, or diving into data science, I thrive on creating impactful and efficient solutions.
 
-I also have a deep interest in **Data Science** and continuously educate myself to stay relevant in the rapidly evolving tech industry.
+### 🛠️ My Skill Set
+- 💻 **Software Development**: Building robust, user-centric applications
+- 🗃️ **Database Management**: Designing and optimizing data systems
+- 🧠 **Programming**: Skilled in **Java**, **Python**, and more
+- 🎨 **UI/UX Design**: Creating intuitive, visually appealing interfaces
+- 🌐 **Web Development**: Developing responsive, modern web experiences
 
----
-
-### 🎯 Goals
-
-- 📚 Keep learning and expanding my technical knowledge
-- 🤝 Collaborate on open-source and impactful tech projects
-- 🌍 Make a positive contribution to the tech community
-- 💼 Find an **internship or entry-level opportunity** in the Information Technology industry
+I’m particularly excited about **Data Science** and continuously explore new tools and techniques to stay at the forefront of the tech world.
 
 ---
 
-### 📫 Connect with Me
+## 🚀 What I’m Working On
 
-- 📧 Email: pasindumanodyadissanayake@gmail.com
-- 🔗 [LinkedIn](https://www.linkedin.com/in/manodya-dissanayake-34a861227)
+- 📚 **Learning**: Deepening my knowledge in Data Science and advanced programming
+- 🛠️ **Projects**: Contributing to open-source and personal tech projects
+- 🌍 **Impact**: Using technology to solve real-world problems
+- 💼 **Career Goals**: Seeking **internship or entry-level opportunities** in the IT industry
+
+Check out my repositories to see my latest projects and experiments!
+
 ---
 
-Thank you for visiting! 😊
+## 📫 Connect with Me
+
+Let’s collaborate or chat about tech! Reach out via:
+
+- 📧 **Email**: [pasindumanodyadissanayake@gmail.com](mailto:pasindumanodyadissanayake@gmail.com)
+- 🔗 **LinkedIn**: [Manodya Dissanayake](https://www.linkedin.com/in/manodya-dissanayake-34a861227)
+- 🌐 **Portfolio**: [Coming soon!]
+
+---
+
+## ⚡ Fun Fact
+
+When I’m not coding, you’ll find me exploring new UI/UX trends or brainstorming creative ways to make tech more accessible and inclusive.
+
+*Thanks for visiting my profile! Let’s build something awesome together.* 😊
