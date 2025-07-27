@@ -28,11 +28,7 @@
 
 ### 🌐 Connect with Me
 
-<p align="center">
-  <a href="https://linkedin.com/in/manodyadissanayake" target="blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="30" height="30"/>
-  </a>
-</p>
+<p align="center"> <a href="https://linkedin.com/in/manodyadissanayake" target="blank"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="30" height="30"/> </a> &nbsp;&nbsp; <a href="https://wa.me/94707505656" target="blank"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp" width="30" height="30"/> </a> </p>
 
 ---
 
