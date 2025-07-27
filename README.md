@@ -2,7 +2,7 @@
 <h3 align="center">IT Undergraduate | Tech Enthusiast | Lifelong Learner</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=man0dya&label=Profile%20views&color=0e75b6&style=flat" alt="man0dya" />
+  <img src="https://komarev.com/ghpvc/?username=man0dya&label=Profile%20views&color=0e75b6&style=flat" alt="man0dya" style="transform: scale(1.2);" />
 </p>
 
 <p align="center">
@@ -29,11 +29,11 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/manodyadissanayake" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;"/>
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" />
   </a>
   &nbsp;&nbsp;
   <a href="https://wa.me/94707505656" target="_blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;"/>
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" />
   </a>
 </p>
 
@@ -42,22 +42,22 @@
 ### 🛠️ Languages & Tools
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="Android"/>
-  <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="Kotlin"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="React"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="Java"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="NodeJS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="MySQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="MongoDB"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="ExpressJS"/>
-  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="Figma"/>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="Git"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="Bootstrap"/>
-  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="TailwindCSS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="HTML5"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="CSS3"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" style="background-color: white; border-radius: 50%; padding: 5px;" alt="JavaScript"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="Android"/>
+  <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="Kotlin"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="React"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="Java"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="NodeJS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="MySQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="MongoDB"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="ExpressJS"/>
+  <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="Figma"/>
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="Git"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="Bootstrap"/>
+  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="TailwindCSS"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="HTML5"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="CSS3"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" style="background-color: #ffffff; border-radius: 50%; padding: 5px; border: 1px solid #000000;" alt="JavaScript"/>
 </p>
 
 ---
