@@ -19,19 +19,20 @@ Replace these placeholders:
 </div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/manodyadissanayake">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <a href="https://www.linkedin.com/in/manodyadissanayake" title="LinkedIn">
+    <img src="https://api.iconify.design/simple-icons:linkedin.svg?color=%230A66C2" alt="LinkedIn" style="height:36px;width:36px;margin:0 10px;vertical-align:middle;" />
   </a>
-  <a href="https://wa.me/94707505656">
-    <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  <a href="https://wa.me/94707505656" title="WhatsApp">
+    <img src="https://api.iconify.design/simple-icons:whatsapp.svg?color=%2325D366" alt="WhatsApp" style="height:36px;width:36px;margin:0 10px;vertical-align:middle;" />
   </a>
-  <a href="mailto:pasindumanodyadissanayake@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <a href="mailto:pasindumanodyadissanayake@gmail.com" title="Email">
+    <img src="https://api.iconify.design/simple-icons:gmail.svg?color=%23EA4335" alt="Email" style="height:36px;width:36px;margin:0 10px;vertical-align:middle;" />
   </a>
-  <a href="YOUR_PORTFOLIO_URL">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <a href="YOUR_PORTFOLIO_URL" title="Portfolio">
+    <img src="https://api.iconify.design/simple-icons:vercel.svg?color=%23111111" alt="Portfolio" style="height:36px;width:36px;margin:0 10px;vertical-align:middle;" />
   </a>
 </p>
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Man0dya&label=Profile%20Views&color=7F3FBF&style=flat-square" alt="profile views" />
