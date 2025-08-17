@@ -2,10 +2,6 @@
 <h3 align="center">IT Undergraduate | Tech Enthusiast | Lifelong Learner</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=man0dya&label=Profile%20views&color=0e75b6&style=flat" alt="man0dya" style="transform: scale(1.2);" />
-</p>
-
-<p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=man0dya&theme=onedark" alt="Trophies" />
   </a>
