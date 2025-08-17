@@ -91,6 +91,6 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,100:7928CA&height=120&section=footer" alt="footer"/>
   </p>
   
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/Man0dya/Man0dya/output/snake.svg" alt="snake animation"/>
-  </p>
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/Man0dya/Man0dya/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+</p>
