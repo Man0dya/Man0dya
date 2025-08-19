@@ -87,8 +87,6 @@
     <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
   </p>
   
-  
-  
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Man0dya/Man0dya/output/github-contribution-grid-snake-dark.svg" />
