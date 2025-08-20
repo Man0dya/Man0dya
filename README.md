@@ -1,13 +1,4 @@
-  <!--
-  Replace these placeholders:
-  - YOUR_GITHUB_USERNAME
-  - YOUR_LINKEDIN_URL
-  - YOUR_WHATSAPP_NUMBER (e.g., 94700111222)
-  - YOUR_EMAIL@example.com
-  - YOUR_PORTFOLIO_URL
-  - YOUR_BUYMEACOFFEE_USERNAME
-  -->
-  
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7928CA,100:FF0080&height=220&section=header&text=Manodya%20Dissanayake&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=IT%20Undergraduate%20%7C%20Tech%20Enthusiast%20%7C%20Lifelong%20Learner&descAlignY=56&descAlign=50" alt="header"/>
 </p>
@@ -82,6 +73,8 @@
       <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy Me A Coffee"/>
     </a>
   </p>
+
+  ---
   
   <p align="center">
     <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
