@@ -2,7 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7928CA,100:FF0080&height=220&section=header&text=Manodya%20Dissanayake&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=IT%20Undergraduate%20%7C%20Tech%20Enthusiast%20%7C%20Lifelong%20Learner&descAlignY=56&descAlign=50" alt="header"/>
 </p>
 
-
 <p align="center" style="margin-top:-18px;">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=FF2D95&center=true&vCenter=true&width=700&lines=Welcome+to+my+GitHub!;Full-stack+%26+Mobile+Developer;Data+Science+%7C+Android+%28Kotlin%29+%7C+React;Always+learning+something+new+%F0%9F%9A%80" alt="Typing animation" />
 </p>
