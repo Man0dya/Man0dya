@@ -26,19 +26,20 @@
   ---
   
   ### 🚀 About Me
-  - 🎓 IT Undergraduate at SLIIT
+  - 🎓 Data Science Undergraduate at SLIIT
   - 🌱 Currently learning Data Science, Android Development (Kotlin), and React
-  - 🔭 Building full‑stack and mobile apps
+  - 🔭 Building AI applications, full‑stack and mobile apps
   - 🤝 Open to collaborations on real‑world projects
-  - 💬 Ask me about Java, Web, UI/UX, or Databases
-  - ⚡ Fun fact: I love turning caffeine into code ☕💻
+  - 💬 Ask me about MERN, Web, UI/UX, or Databases
+  - ⚡ Fun fact: Call me ManO 😉
   
   ---
   
   ### 🛠️ Tech Stack
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,react,java,python,nodejs,express,mongodb,mysql,git,figma,bootstrap,tailwind,html,css,javascript&perline=8" alt="skills" />
-  </p>
+  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,react,java,python,nodejs,express,mongodb,mysql,git,figma,bootstrap,tailwind,html,css,javascript,aws,azure,astradb,langflow,ollama&perline=9" alt="skills" />
+</p>
+
   
   ---
   
