@@ -37,7 +37,7 @@
   
   ### 🛠️ Tech Stack
   <p align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,react,java,python,nodejs,express,mongodb,mysql,git,figma,bootstrap,tailwind,html,css,javascript,aws,azure,astradb,langflow,ollama&perline=9" alt="skills" />
+  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,react,java,python,nodejs,express,mongodb,mysql,git,figma,bootstrap,tailwind,html,css,javascript,aws,azure,fastapi,linux,netlify,php,postman,r,threejs,ts,vite&perline=9" alt="skills" />
 </p>
 
   
