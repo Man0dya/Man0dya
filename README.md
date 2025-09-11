@@ -25,14 +25,25 @@
   
   ---
   
+<table>
+  <tr>
+    <td>
+
   ### 🚀 About Me
-  - 🎓 Data Science Undergraduate at SLIIT
-  - 🌱 Currently learning Data Science, Android Development (Kotlin), and React
-  - 🔭 Building AI applications, full‑stack and mobile apps
-  - 🤝 Open to collaborations on real‑world projects
-  - 💬 Ask me about MERN, Web, UI/UX, or Databases
-  - ⚡ Fun fact: Call me ManO 😉
-  
+  - 🎓 Data Science Undergraduate at SLIIT  
+  - 🌱 Currently learning Data Science, Android Development (Kotlin), and React  
+  - 🔭 Building AI applications, full-stack and mobile apps  
+  - 🤝 Open to collaborations on real-world projects  
+  - 💬 Ask me about MERN, Web, UI/UX, or Databases  
+  - ⚡ Fun fact: Call me ManO 😉  
+
+    </td>
+    <td>
+      <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300">
+    </td>
+  </tr>
+</table>
+
   ---
   
   ### 🛠️ Tech Stack
