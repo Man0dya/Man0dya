@@ -48,12 +48,12 @@
     <img height="165" src="https://github-readme-stats.vercel.app/api?username=Man0dya&show_icons=true&theme=tokyonight&hide_border=true" alt="stats" />
     <img height="165" src="https://streak-stats.demolab.com?user=Man0dya&theme=tokyonight&hide_border=true" alt="streak" />
   </p>
- 
-  <!--
-  <p align="center">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Man0dya&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
-  </p> -->
   
+  <p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Man0dya&theme=tokyonight" alt="Top Langs by Commit" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Man0dya&theme=tokyonight" alt="Top Langs by Repo" />
+  </p>
+
   ---
   
   ### 🏆 Achievements
