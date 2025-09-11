@@ -24,6 +24,8 @@
   </p>
   
   ---
+
+<div align="center">
   
 <table>
   <tr>
@@ -43,6 +45,8 @@
     </td>
   </tr>
 </table>
+
+</div>
 
   ---
   
