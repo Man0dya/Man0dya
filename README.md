@@ -108,3 +108,5 @@
   </p>
   
  ---
+
+![Man0dya's Contribution Animation](Man0dya-contribution-animation.svg)
