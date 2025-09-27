@@ -1,3 +1,5 @@
+![Man0dya's Contribution Animation](Man0dya-contribution-animation.svg)
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7928CA,100:FF0080&height=220&section=header&text=Manodya%20Dissanayake&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Data%20Science%20Undergraduate%20%7C%20Tech%20Enthusiast%20%7C%20Lifelong%20Learner&descAlignY=56&descAlign=50" alt="header"/>
 </p>
