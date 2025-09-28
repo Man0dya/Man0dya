@@ -215,72 +215,58 @@ async function main() {
       }))
     );
 
-    // Theme defaults (override via env vars for dark-mode variants or custom themes)
-    const theme = {
-      shooter: process.env.SHOOTER_COLOR || '#216e39', // GitHub green by default
-      explosion: process.env.EXPLOSION_COLOR || '#ff6b35',
+    // Themes for light and dark
+    const lightTheme = {
+      shooter: '#216e39', // GitHub green (light)
+      explosion: '#ff6b35',
+      noContribution: '#ebedf0',
     };
-    const noContributionColor = process.env.NOCONTRIB_COLOR || '#ebedf0';
-    const transparent = (process.env.TRANSPARENT || 'true').toLowerCase() !== 'false';
+    const darkTheme = {
+      shooter: '#39d353', // GitHub green (dark)
+      explosion: '#ff9e64',
+      noContribution: '#161b22', // GitHub dark empty cell color
+    };
 
-    console.log('🎨 Generating bubble-shooter SVG...');
-    const svg = buildBubbleShooterSVG({
+    console.log('🎨 Generating bubble-shooter SVG (light)...');
+    const svgLight = buildBubbleShooterSVG({
       data: normalized,
       width: 1200,
       height: 340,
-      theme,
+      theme: { shooter: lightTheme.shooter, explosion: lightTheme.explosion },
       speedMul: 1,
-      noContributionColor,
-      transparent,
+      noContributionColor: lightTheme.noContribution,
+      transparent: true,
     });
 
-    // If OUTPUT_FILENAME is provided, write only that file; otherwise write standard set
-    const singleOut = process.env.OUTPUT_FILENAME;
-    const generateDark = (process.env.GENERATE_DARK || 'true').toLowerCase() !== 'false';
+    console.log('🌙 Generating bubble-shooter SVG (dark)...');
+    const svgDark = buildBubbleShooterSVG({
+      data: normalized,
+      width: 1200,
+      height: 340,
+      theme: { shooter: darkTheme.shooter, explosion: darkTheme.explosion },
+      speedMul: 1,
+      noContributionColor: darkTheme.noContribution,
+      transparent: true,
+    });
 
-    if (singleOut) {
-      fs.writeFileSync(singleOut, svg);
-      console.log(`✅ Generated: ${singleOut}`);
-    } else {
-      const outputs = [
-        { filename: `${username}-contribution-animation.svg`, content: svg },
-        { filename: 'contribution-animation.svg', content: svg },
-        { filename: 'github-contribution-animation.svg', content: svg },
-      ];
-      outputs.forEach(({ filename, content }) => {
-        fs.writeFileSync(filename, content);
-        console.log(`✅ Generated: ${filename}`);
-      });
+    const outputs = [
+      { filename: `${username}-contribution-animation.svg`, content: svgLight },
+      { filename: 'contribution-animation.svg', content: svgLight },
+      { filename: 'github-contribution-animation.svg', content: svgLight },
+      { filename: `${username}-contribution-animation-dark.svg`, content: svgDark },
+      { filename: 'contribution-animation-dark.svg', content: svgDark },
+      { filename: 'github-contribution-animation-dark.svg', content: svgDark },
+    ];
+    outputs.forEach(({ filename, content }) => {
+      fs.writeFileSync(filename, content);
+      console.log(`✅ Generated: ${filename}`);
+    });
 
-      if (generateDark) {
-        console.log('🌙 Building dark-mode variant...');
-        const darkSvg = buildBubbleShooterSVG({
-          data: normalized,
-          width: 1200,
-          height: 340,
-          theme: {
-            shooter: process.env.DARK_SHOOTER_COLOR || '#39d353',
-            explosion: process.env.DARK_EXPLOSION_COLOR || '#ff9e64',
-          },
-          speedMul: 1,
-          noContributionColor: process.env.DARK_NOCONTRIB_COLOR || '#161b22',
-          transparent,
-        });
-
-        const darkOutputs = [
-          { filename: `${username}-contribution-animation.dark.svg`, content: darkSvg },
-          { filename: 'contribution-animation.dark.svg', content: darkSvg },
-          { filename: 'github-contribution-animation.dark.svg', content: darkSvg },
-        ];
-        darkOutputs.forEach(({ filename, content }) => {
-          fs.writeFileSync(filename, content);
-          console.log(`✅ Generated: ${filename}`);
-        });
-      }
-    }
-
-    console.log('✅ Done. Embed in README:');
-    console.log(`![Contribution Animation](${username}-contribution-animation.svg)`);
+  console.log('✅ Done. Embed in README (auto light/dark):');
+  console.log('<picture>');
+  console.log(`  <source media="(prefers-color-scheme: dark)" srcset="${username}-contribution-animation-dark.svg" />`);
+  console.log(`  <img alt="Contribution Animation" src="${username}-contribution-animation.svg" />`);
+  console.log('</picture>');
   } catch (error) {
     console.error('❌ Error generating animation:', error.message);
     process.exit(1);
