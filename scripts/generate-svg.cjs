@@ -215,11 +215,13 @@ async function main() {
       }))
     );
 
-    // Theme defaults
+    // Theme defaults (override via env vars for dark-mode variants or custom themes)
     const theme = {
-      shooter: '#216e39', // GitHub green
-      explosion: '#ff6b35',
+      shooter: process.env.SHOOTER_COLOR || '#216e39', // GitHub green by default
+      explosion: process.env.EXPLOSION_COLOR || '#ff6b35',
     };
+    const noContributionColor = process.env.NOCONTRIB_COLOR || '#ebedf0';
+    const transparent = (process.env.TRANSPARENT || 'true').toLowerCase() !== 'false';
 
     console.log('🎨 Generating bubble-shooter SVG...');
     const svg = buildBubbleShooterSVG({
@@ -228,19 +230,54 @@ async function main() {
       height: 340,
       theme,
       speedMul: 1,
-      noContributionColor: '#ebedf0',
-      transparent: true,
+      noContributionColor,
+      transparent,
     });
 
-    const outputs = [
-      { filename: `${username}-contribution-animation.svg`, content: svg },
-      { filename: 'contribution-animation.svg', content: svg },
-      { filename: 'github-contribution-animation.svg', content: svg },
-    ];
-    outputs.forEach(({ filename, content }) => {
-      fs.writeFileSync(filename, content);
-      console.log(`✅ Generated: ${filename}`);
-    });
+    // If OUTPUT_FILENAME is provided, write only that file; otherwise write standard set
+    const singleOut = process.env.OUTPUT_FILENAME;
+    const generateDark = (process.env.GENERATE_DARK || 'true').toLowerCase() !== 'false';
+
+    if (singleOut) {
+      fs.writeFileSync(singleOut, svg);
+      console.log(`✅ Generated: ${singleOut}`);
+    } else {
+      const outputs = [
+        { filename: `${username}-contribution-animation.svg`, content: svg },
+        { filename: 'contribution-animation.svg', content: svg },
+        { filename: 'github-contribution-animation.svg', content: svg },
+      ];
+      outputs.forEach(({ filename, content }) => {
+        fs.writeFileSync(filename, content);
+        console.log(`✅ Generated: ${filename}`);
+      });
+
+      if (generateDark) {
+        console.log('🌙 Building dark-mode variant...');
+        const darkSvg = buildBubbleShooterSVG({
+          data: normalized,
+          width: 1200,
+          height: 340,
+          theme: {
+            shooter: process.env.DARK_SHOOTER_COLOR || '#39d353',
+            explosion: process.env.DARK_EXPLOSION_COLOR || '#ff9e64',
+          },
+          speedMul: 1,
+          noContributionColor: process.env.DARK_NOCONTRIB_COLOR || '#161b22',
+          transparent,
+        });
+
+        const darkOutputs = [
+          { filename: `${username}-contribution-animation.dark.svg`, content: darkSvg },
+          { filename: 'contribution-animation.dark.svg', content: darkSvg },
+          { filename: 'github-contribution-animation.dark.svg', content: darkSvg },
+        ];
+        darkOutputs.forEach(({ filename, content }) => {
+          fs.writeFileSync(filename, content);
+          console.log(`✅ Generated: ${filename}`);
+        });
+      }
+    }
 
     console.log('✅ Done. Embed in README:');
     console.log(`![Contribution Animation](${username}-contribution-animation.svg)`);
