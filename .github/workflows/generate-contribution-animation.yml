@@ -1,0 +1,29 @@
+name: Generate Contribution Animation
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Daily at 00:00 UTC
+  workflow_dispatch: # Allows manual trigger
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Contribution Animation
+        uses: Man0dya/Readme-Contribution-Graph-Generator@main
+        with:
+          github_user_name: Man0dya
+
+      - name: Commit and push updated SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution animation [skip ci]"
+          file_pattern: "*-contribution-animation*.svg contribution-animation*.svg github-contribution-animation*.svg"
