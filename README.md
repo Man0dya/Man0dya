@@ -99,10 +99,13 @@
 
   
   <p align="center">
-    <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="Man0dya-contribution-animation-dark.svg" />
-  <img alt="Man0dya's Contribution Animation" src="Man0dya-contribution-animation.svg" />
-</picture>
+    
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="github-contribution-animation-dark.svg" />
+    <img alt="Man0dya Contribution Animation" src="github-contribution-animation.svg" />
+  </picture>
+
   </p>
 
 <p align="center">
