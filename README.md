@@ -33,7 +33,7 @@
 
   ### 🚀 About Me
   - 🎓 Data Science Undergraduate at SLIIT  
-  - 🌱 Learning Data Science, Android Development (Kotlin), and React
+  - 🌱 Learning Data Science and Software Engineering
   - 🔭 Building AI applications, full-stack and mobile apps  
   - 🤝 Open to collaborations on real-world projects  
   - 💬 Ask me about MERN, Web, UI/UX, or Databases  
