@@ -37,7 +37,7 @@
   - 🔭 Building AI applications, full-stack and mobile apps  
   - 🤝 Open to collaborations on real-world projects  
   - 💬 Ask me about MERN, Web, UI/UX, or Databases  
-  - ⚡ Fun fact: Call me ManO 😉  
+  - ⚡ Fun fact: Call me ManO   
 
     </td>
     <td>
