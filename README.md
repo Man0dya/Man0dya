@@ -84,15 +84,6 @@
   
   ---
   
-  ### ☕ Support Me
-  <p align="center">
-    <a href="https://www.buymeacoffee.com/manodyadissanayake">
-      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy Me A Coffee"/>
-    </a>
-  </p>
-
-  ---
-  
   <p align="center">
     <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote" />
   </p>
